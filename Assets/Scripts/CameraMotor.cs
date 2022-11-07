@@ -32,7 +32,7 @@ public class CameraMotor : MonoBehaviour
         if (deltaX > boundX || deltaX < -boundX)
         {
             if (transform.position.x < lookAt.position.x)
-            {
+            { 
                 delta.x = deltaX - boundX;
             }
             else

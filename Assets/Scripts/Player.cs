@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
     {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
-        // tái tạo chuyển động
         _moveDelta = new Vector3(x, y, 0);
 
         // Xoay người khi di chuyển phải trái
